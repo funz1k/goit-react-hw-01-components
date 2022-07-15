@@ -34,4 +34,4 @@ Statistics.propTypes = {
     }))
 }
 
-export default Statistics
+export default Statistics;

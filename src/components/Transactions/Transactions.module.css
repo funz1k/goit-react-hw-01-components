@@ -1,0 +1,32 @@
+.transaction_history {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    color: rgb(136, 137, 138);
+}
+
+.thead {
+    color: #ffff;
+}
+
+table th {
+    font-weight: bold;
+    width: 200px;
+    padding: 15px;
+    background: rgb(58,188,213);
+    border: 1px solid #dddddd;
+}
+table td {
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 10px 30px;
+}
+
+table td::first-letter{
+    text-transform: uppercase;
+}
+
+.table tr:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
